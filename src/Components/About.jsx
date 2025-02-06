@@ -1,6 +1,14 @@
 import { Github, Linkedin, Mail, FileDown, User, BookOpen, Briefcase } from 'lucide-react';
 
 const About = () => {
+  const handleDownloadCV = () => {
+    const link = document.createElement('a');
+    link.href = '/manish.pdf'; 
+    link.download = 'manishCV.pdf'; 
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <div className="min-h-screen bg-black text-gray-100 flex flex-col items-center">
       {/* Hero Section */}
@@ -26,13 +34,13 @@ const About = () => {
             expertise with creative problem-solving to deliver exceptional user experiences.
           </p>
           <div className="flex flex-col items-center gap-6">
-            <a 
-              href="#" 
-              className="inline-flex items-center gap-2 px-6 py-3 bg-emerald-500 text-black rounded-lg hover:bg-emerald-500 transition-colors font-semibold"
+          <button 
+              onClick={handleDownloadCV}
+              className="inline-flex items-center gap-2 px-6 py-3 bg-emerald-400 text-black rounded-lg hover:bg-emerald-500 transition-colors font-semibold"
             >
               <FileDown className="w-5 h-5" />
               Download CV
-            </a>
+            </button>
             <div className="flex gap-4">
               <a href="https://github.com/manish689" className="hover:text-emerald-400 transition-colors">
                 <Github className="w-6 h-6" />
