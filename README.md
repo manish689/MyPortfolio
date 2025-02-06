@@ -44,27 +44,27 @@ Open your browser and visit http://localhost:5173/ to see the portfolio.
 Folder Structure
 
 MyPortfolio/
-│-- public/          # Static assets
-│   │-- logo.svg     # Logo image
-│   │-- manish.pdf   # CV file
-│-- src/             # Main source code
-│   │-- Components/  # Reusable components
-│   │   │-- About.jsx
-│   │   │-- Connect.jsx
-│   │   │-- Footer.jsx
-│   │   │-- Navbar.jsx
-│   │   │-- Portfolio.jsx
-│   │-- App.jsx      # Main application file
-│   │-- main.jsx     # Entry point
-│   │-- index.css    # Global styles
-│-- .gitignore       # Files to exclude from Git
-│-- eslint.config.js # ESLint configuration
-│-- index.html       # Root HTML file
-│-- package-lock.json# Dependency lock file
-│-- package.json     # Project dependencies and scripts
-│-- README.md        # Project documentation
-│-- tailwind.config.js  # Tailwind CSS configuration
-│-- vite.config.js      # Vite configuration
+├── public/              # Static assets
+│   ├── logo.svg         # Logo image
+│   ├── manish.pdf       # CV file
+├── src/                 # Main source code
+│   ├── Components/      # Reusable components
+│   │   ├── About.jsx
+│   │   ├── Connect.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── Portfolio.jsx
+│   ├── App.jsx          # Main application file
+│   ├── main.jsx         # Entry point
+│   ├── index.css        # Global styles
+├── .gitignore           # Files to exclude from Git
+├── eslint.config.js     # ESLint configuration
+├── index.html           # Root HTML file
+├── package-lock.json    # Dependency lock file
+├── package.json         # Project dependencies and scripts
+├── README.md            # Project documentation
+├── tailwind.config.js   # Tailwind CSS configuration
+├── vite.config.js       # Vite configuration
 
 Customization
 
