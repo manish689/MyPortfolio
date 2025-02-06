@@ -7,7 +7,7 @@ const projects = [
     description: "A full-featured online store with cart functionality, user authentication, and payment processing.",
     image: "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=1600",
     tags: ["React", "Node.js", "MongoDB", "Stripe"],
-    githubLink: "#",
+    githubLink: "https://github.com/manish689",
     liveLink: "#",
     icon: <Globe className="w-6 h-6 text-emerald-400" />
   },
@@ -16,7 +16,7 @@ const projects = [
     description: "An application that generates unique images using machine learning algorithms and user prompts.",
     image: "https://images.unsplash.com/photo-1547954575-855750c57bd3?auto=format&fit=crop&q=80&w=1600",
     tags: ["Python", "TensorFlow", "React", "AWS"],
-    githubLink: "#",
+    githubLink: "https://github.com/manish689",
     liveLink: "#",
     icon: <Cpu className="w-6 h-6 text-emerald-400" />
   },
@@ -25,7 +25,7 @@ const projects = [
     description: "A collaborative project management tool with real-time updates and team features.",
     image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=1600",
     tags: ["React", "Firebase", "Material-UI"],
-    githubLink: "#",
+    githubLink: "https://github.com/manish689",
     liveLink: "#",
     icon: <Code2 className="w-6 h-6 text-emerald-400" />
   },
@@ -34,7 +34,7 @@ const projects = [
     description: "A responsive portfolio website showcasing creative work and professional experience.",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1600",
     tags: ["React", "Tailwind CSS", "Framer Motion"],
-    githubLink: "#",
+    githubLink: "https://github.com/manish689",
     liveLink: "#",
     icon: <Palette className="w-6 h-6 text-emerald-400" />
   },
@@ -43,7 +43,7 @@ const projects = [
     description: "A weather application with detailed forecasts, maps, and location-based services.",
     image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?auto=format&fit=crop&q=80&w=1600",
     tags: ["React", "OpenWeather API", "Charts.js"],
-    githubLink: "#",
+    githubLink: "https://github.com/manish689",
     liveLink: "#",
     icon: <Globe className="w-6 h-6 text-emerald-400" />
   },
@@ -52,7 +52,7 @@ const projects = [
     description: "A dashboard for tracking and analyzing social media metrics and engagement.",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1600",
     tags: ["React", "D3.js", "Node.js", "MongoDB"],
-    githubLink: "#",
+    githubLink: "https://github.com/manish689",
     liveLink: "#",
     icon: <Code2 className="w-6 h-6 text-emerald-400" />
   }
@@ -127,7 +127,7 @@ const Portfolio = () => {
 
         <div className="mt-16 text-center">
           <a
-            href="#"
+            href="https://github.com/manish689"
             className="inline-flex items-center gap-2 px-8 py-4 bg-gray-900 text-white rounded-full hover:bg-gray-800 transition-colors border border-gray-800 hover:border-emerald-500 group"
           >
             <Github className="w-6 h-6 text-emerald-400 group-hover:scale-110 transition-transform" />

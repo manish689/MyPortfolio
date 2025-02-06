@@ -6,25 +6,25 @@ const Connect = () => {
     {
       name: 'Email',
       icon: <Mail className="w-6 h-6" />,
-      href: 'mailto:your.email@example.com',
+      href: 'mailto:manishpyakurel67@gmail.com',
       color: 'hover:text-emerald-400',
     },
     {
       name: 'GitHub',
       icon: <Github className="w-6 h-6" />,
-      href: '#',
+      href: 'https://github.com/manish689',
       color: 'hover:text-emerald-400',
     },
     {
       name: 'LinkedIn',
       icon: <Linkedin className="w-6 h-6" />,
-      href: '#',
+      href: 'https://www.linkedin.com/in/manish-pyakurel-a59a741b8/',
       color: 'hover:text-emerald-400',
     },
     {
       name: 'Twitter',
       icon: <Twitter className="w-6 h-6" />,
-      href: '#',
+      href: 'https://x.com/flyoderr',
       color: 'hover:text-emerald-400',
     },
   ];
@@ -70,7 +70,7 @@ const Connect = () => {
             </p>
             <div className="inline-flex items-center gap-2 text-emerald-400">
               <Mail className="w-5 h-5" />
-              <span>your.email@example.com</span>
+              <span>manishpyakurel67@gmail.com</span>
             </div>
           </div>
         </div>

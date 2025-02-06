@@ -34,13 +34,13 @@ const About = () => {
               Download CV
             </a>
             <div className="flex gap-4">
-              <a href="#" className="hover:text-emerald-400 transition-colors">
+              <a href="https://github.com/manish689" className="hover:text-emerald-400 transition-colors">
                 <Github className="w-6 h-6" />
               </a>
-              <a href="#" className="hover:text-emerald-400 transition-colors">
+              <a href="https://www.linkedin.com/in/manish-pyakurel-a59a741b8/" className="hover:text-emerald-400 transition-colors">
                 <Linkedin className="w-6 h-6" />
               </a>
-              <a href="#" className="hover:text-emerald-400 transition-colors">
+              <a href='mailto:manishpyakurel67@gmail.com' className="hover:text-emerald-400 transition-colors">
                 <Mail className="w-6 h-6" />
               </a>
             </div>
