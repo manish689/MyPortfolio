@@ -61,7 +61,7 @@ const projects = [
 const Portfolio = () => {
   return (
     <section className="py-20 bg-black">
-      <div className="container mx-auto px-4">
+      <div id="works" className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-white mb-4">My Projects</h2>
           <p className="text-xl text-emerald-400">Check out my latest work</p>

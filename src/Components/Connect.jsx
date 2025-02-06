@@ -30,7 +30,7 @@ const Connect = () => {
   ];
 
   return (
-    <section className="py-10 bg-black">
+    <section id="connect" className="py-10 bg-black">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-4xl font-bold text-white mb-6">Let's Connect</h2>

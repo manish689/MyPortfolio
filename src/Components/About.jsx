@@ -12,7 +12,7 @@ const About = () => {
   return (
     <div className="min-h-screen bg-black text-gray-100 flex flex-col items-center">
       {/* Hero Section */}
-      <div className="relative h-[40vh] w-full overflow-hidden">
+      <div id="about" className="relative h-[40vh] w-full overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black" />
         <div className="absolute bottom-0 left-0 right-0 p-8 text-center">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">Manish Pyakurel</h1>
@@ -33,7 +33,7 @@ const About = () => {
             I specialize in React, Node.js, and cloud technologies. My approach combines technical
             expertise with creative problem-solving to deliver exceptional user experiences.
           </p>
-          <div className="flex flex-col items-center gap-6">
+          <div id="skills" className="flex flex-col items-center gap-6">
           <button 
               onClick={handleDownloadCV}
               className="inline-flex items-center gap-2 px-6 py-3 bg-emerald-400 text-black rounded-lg hover:bg-emerald-500 transition-colors font-semibold"
