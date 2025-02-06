@@ -33,7 +33,7 @@ const Footer = () => {
           <div className="flex items-center gap-2">
             <span className="text-gray-400">© {2025} Manish Pyakurel.</span>
             <a
-              href="https://www.buymeacoffee.com/YourBuyMeACoffeeUsername"
+              href="https://buymeacoffee.com/manishpyakh"
               className="inline-flex items-center gap-2 text-emerald-400 hover:text-emerald-300 transition-colors"
               target="_blank"
               rel="noopener noreferrer"

@@ -53,7 +53,7 @@ const Connect = () => {
           </div>
 
           <a
-            href="https://www.buymeacoffee.com/YourBuyMeACoffeeUsername"
+            href="https://buymeacoffee.com/manishpyakh"
             className="inline-flex items-center gap-3 px-8 py-4 bg-emerald-500 text-white rounded-full hover:bg-emerald-600 transition-all duration-300 transform hover:-translate-y-1"
             target="_blank"
             rel="noopener noreferrer"
