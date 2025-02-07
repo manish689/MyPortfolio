@@ -46,14 +46,14 @@ const NavBar = () => {
 
   return (
     <>
-    <nav className={`fixed top-6 left-1/2 -translate-x-1/2 bg-gray-900 backdrop-blur-sm z-50 rounded-full px-8 transition-transform duration-300 ${
+    <nav className={`fixed top-6 w-full px-4 md:left-1/2 md:-translate-x-1/2 md:w-auto transition-transform duration-300 z-50  ${
       isVisible ? 'translate-y-0' : '-translate-y-32'
     }`}>
-      <div className="flex items-center justify-center h-16">
+      <div className="relative flex items-center h-16">
         {/* Mobile menu button */}
         <button
             onClick={handleMenuClick}
-            className="md:hidden p-2 text-gray-300 hover:text-emerald-400 transition-colors"
+            className="md:hidden absolute left-0 p-2 text-gray-300 hover:text-emerald-400 transition-colors bg-gray-900 backdrop-blur-sm rounded-full"
             aria-label="Toggle menu"
           >
             {isMenuOpen ? (
@@ -64,7 +64,7 @@ const NavBar = () => {
           </button>
 
         {/* Desktop menu */}
-        <div className="hidden md:flex md:space-x-8">
+        <div className="hidden md:flex md:space-x-8 p-3 bg-gray-900 backdrop-blur-sm rounded-full px-8">
           {navItems.map((item) => (
             <a
               key={item.name}
@@ -80,16 +80,16 @@ const NavBar = () => {
 
        {/* Mobile menu dropdown */}
        <div
-          className={`absolute top-full left-0 right-0 mt-2 bg-black/90 backdrop-blur-sm rounded-2xl overflow-hidden transition-all duration-300 md:hidden ${
-            isMenuOpen ? 'max-h-64 opacity-100' : 'max-h-0 opacity-0'
+          className={`fixed left-0 right-0 top-0 bg-black/95 backdrop-blur-sm transition-all duration-300 md:hidden ${
+            isMenuOpen ? 'h-screen opacity-100' : 'h-0 opacity-0 pointer-events-none'
           }`}
         >
-          <div className="px-4 py-2 space-y-1">
+          <div className="pt-24 px-6">
             {navItems.map((item) => (
               <a
                 key={item.name}
                 href={item.href}
-                className="block text-gray-300 hover:text-emerald-400 px-4 py-2 rounded-full text-base font-medium transition-colors duration-200"
+                className="block text-gray-300 hover:text-emerald-400 px-4 py-4 text-xl font-medium transition-colors duration-200 border-b border-gray-800"
                 onClick={handleNavClick}
               >
                 {item.name}
@@ -97,17 +97,8 @@ const NavBar = () => {
             ))}
           </div>
         </div>
-    </nav>
-
-    {/* Overlay for mobile menu */}
-    {isMenuOpen && (
-      <div
-        className="fixed inset-0 bg-black/20 backdrop-blur-sm z-40 md:hidden"
-        onClick={handleNavClick}
-        aria-hidden="true"
-      />
-    )}
-  </>
+        </nav>
+        </>
   );
 };
 
