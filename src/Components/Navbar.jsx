@@ -91,6 +91,16 @@ const NavBar = () => {
             isMenuOpen ? 'h-screen opacity-100' : 'h-0 opacity-0 pointer-events-none'
           }`}
         >
+
+           {/* Close button in dropdown */}
+           <button
+            onClick={handleMenuClick}
+            className="absolute top-8 right-6 p-2 text-gray-300 hover:text-emerald-400 transition-colors"
+            aria-label="Close menu"
+          >
+            <X className="h-8 w-8" />
+          </button>
+
           <div className="pt-24 px-6">
             {navItems.map((item) => (
               <a
