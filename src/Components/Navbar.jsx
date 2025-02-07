@@ -27,7 +27,14 @@ const NavBar = () => {
       setLastScrollY(currentScrollY);
     };
 
+    const handleResize = () => {
+      if (window.innerWidth >= 768) { 
+        setIsMenuOpen(false);
+      }
+    };
+
     window.addEventListener('scroll', controlNavbar);
+    window.addEventListener('resize', handleResize);
 
     
     return () => {
